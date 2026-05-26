@@ -9,17 +9,19 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 - **[Advent of Code](https://github.com/LorranSutter/advent-of-code)**: Annual December coding puzzles (Python).
 - **[Everybody Codes](https://github.com/LorranSutter/everybody-codes)**: Annual November story-based coding challenges (Python).
 - **[LeetCode](https://github.com/LorranSutter/leet-code)**: Algorithm and problem-solving practice (Go).
+- **[URI Online Judge](https://github.com/LorranSutter/URI-Online-Judge)**: Archive of online judge problems (Python).
 
 ---
 
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 275 coding challenges completed!**
+> ### 🏆 **Grand Total: 631 coding challenges completed!**
 >
 > - **Advent of Code**: 95/100 parts (95.0%)
 > - **Everybody Codes**: 52/54 parts (96.3%)
 > - **LeetCode**: 128 problems solved
+> - **URI Online Judge**: 356 problems solved
 
 ### [🎄 Advent of Code](https://github.com/LorranSutter/advent-of-code)
 
@@ -56,6 +58,22 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 ### [💡 LeetCode](https://github.com/LorranSutter/leet-code)
 
 > **Overall: 128 problems solved**
+
+---
+
+### [🌐 URI Online Judge](https://github.com/LorranSutter/URI-Online-Judge)
+
+> **Overall: 356 problems solved**
+
+| Category | Solved |
+| :--- | :---: |
+| 🔰 Beginner | 200 |
+| ⚙️ Ad-Hoc | 54 |
+| 📐 Geometry | 5 |
+| 🔢 Mathematics | 20 |
+| 🗄️ SQL | 9 |
+| 🔤 Strings | 54 |
+| 🧱 Structures | 14 |
 <!-- SUMMARY:END -->
 
 ---
@@ -64,6 +82,6 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 This repository is fully automated:
 1. A **GitHub Actions Workflow** (`update-dashboard.yml`) runs daily.
-2. It dynamically clones the latest `main` branches of the three source repositories.
+2. It dynamically clones the latest `main` branches of the four source repositories.
 3. It executes `generate_dashboard.py` to scan each repository's `README.md` progress markers, rewrite relative links to absolute ones, calculate the grand totals, and update this file.
 4. If and only if changes are detected, it commits and pushes the updated README.

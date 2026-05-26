@@ -20,6 +20,11 @@ REPOS = {
         "title": "💡 LeetCode",
         "url": "https://github.com/LorranSutter/leet-code",
         "branch": "main",
+    },
+    "URI-Online-Judge": {
+        "title": "🌐 URI Online Judge",
+        "url": "https://github.com/LorranSutter/URI-Online-Judge",
+        "branch": "main",
     }
 }
 
@@ -54,7 +59,7 @@ def parse_stats(text: str, repo_id: str):
                 "total": int(match.group(2)),
                 "type": "parts"
             }
-    elif repo_id == "leet-code":
+    elif repo_id in ("leet-code", "URI-Online-Judge"):
         # Pattern: > **Overall: X problems solved**
         match = re.search(r"Overall:\s*(\d+)\s*problems solved", text)
         if match:
@@ -105,8 +110,9 @@ def main():
     ebc_solved = stats.get("everybody-codes", {}).get("solved", 0)
     ebc_total = stats.get("everybody-codes", {}).get("total", 0)
     lc_solved = stats.get("leet-code", {}).get("solved", 0)
+    uri_solved = stats.get("URI-Online-Judge", {}).get("solved", 0)
 
-    total_challenges = aoc_solved + ebc_solved + lc_solved
+    total_challenges = aoc_solved + ebc_solved + lc_solved + uri_solved
 
     # Overall Badge-like summary
     lines.append(f"> ### 🏆 **Grand Total: {total_challenges} coding challenges completed!**")
@@ -117,6 +123,8 @@ def main():
         lines.append(f"> - **Everybody Codes**: {ebc_solved}/{ebc_total} parts ({ebc_solved/ebc_total*100:.1f}%)")
     if "leet-code" in stats:
         lines.append(f"> - **LeetCode**: {lc_solved} problems solved")
+    if "URI-Online-Judge" in stats:
+        lines.append(f"> - **URI Online Judge**: {uri_solved} problems solved")
     lines.append("")
 
     # Detail sections for each repo
