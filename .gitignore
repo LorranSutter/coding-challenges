@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Go output files (just in case)
+*.out
+*.exe
+*.test
+bin/
+vendor/
+
+# Local testing clones
+/advent-of-code/
+/everybody-codes/
+/leet-code/

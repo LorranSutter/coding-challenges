@@ -1,0 +1,43 @@
+name: Update Dashboard
+
+on:
+  schedule:
+    # Runs daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Allows manual triggering from the GitHub Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Dashboard Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Clone Sibling Repositories
+        run: |
+          git clone https://github.com/LorranSutter/advent-of-code.git ../advent-of-code
+          git clone https://github.com/LorranSutter/everybody-codes.git ../everybody-codes
+          git clone https://github.com/LorranSutter/leet-code.git ../leet-code
+
+      - name: Generate Dashboard README
+        run: python3 generate_dashboard.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git add README.md
+            git commit -m "chore: update progress statistics [skip ci]"
+            git push
+          else
+            echo "No progress updates detected. Skipping commit."
+          fi
