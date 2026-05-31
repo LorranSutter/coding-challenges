@@ -16,20 +16,20 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 633 coding challenges completed!**
+> ### 🏆 **Grand Total: 634 coding challenges completed!**
 >
-> - **Advent of Code**: 97/106 parts (91.5%)
+> - **Advent of Code**: 98/106 parts (92.5%)
 > - **Everybody Codes**: 52/54 parts (96.3%)
 > - **LeetCode**: 128 problems solved
 > - **URI Online Judge**: 356 problems solved
 
 ### [🎄 Advent of Code](https://github.com/LorranSutter/advent-of-code)
 
-> **Overall: 97/106 parts solved (92%)**
+> **Overall: 98/106 parts solved (92%)**
 
 ### [2023](https://github.com/LorranSutter/advent-of-code/tree/main/2023/)
 
-`█████████████████░░░` **31/36** parts solved (86%)
+`██████████████████░░` **32/36** parts solved (89%)
 
 ### [2024](https://github.com/LorranSutter/advent-of-code/tree/main/2024/)
 
