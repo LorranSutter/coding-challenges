@@ -18,32 +18,32 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 > ### 🏆 **Grand Total: 639 coding challenges completed!**
 >
-> - **Advent of Code**: 100/106 parts (94.3%)
-> - **Everybody Codes**: 55/57 parts (96.5%)
+> - **Advent of Code**: 100/124 parts (80.6%)
+> - **Everybody Codes**: 55/69 parts (79.7%)
 > - **LeetCode**: 128 problems solved
 > - **URI Online Judge**: 356 problems solved
 
 ### [🎄 Advent of Code](https://github.com/LorranSutter/advent-of-code)
 
-> **Overall: 100/106 parts solved (94%)**
+> **Overall: 100/124 parts solved (81%)**
 
 ### [2023](https://github.com/LorranSutter/advent-of-code/tree/main/2023/)
 
-`███████████████████░` **34/36** parts solved (94%)
+`██████████████░░░░░░` **34/50** parts solved (68%)
 
 ### [2024](https://github.com/LorranSutter/advent-of-code/tree/main/2024/)
 
-`███████████████████░` **45/48** parts solved (94%)
+`██████████████████░░` **45/50** parts solved (90%)
 
 ### [2025](https://github.com/LorranSutter/advent-of-code/tree/main/2025/)
 
-`███████████████████░` **21/22** parts solved (95%)
+`██████████████████░░` **21/24** parts solved (88%)
 
 ---
 
 ### [🦆 Everybody Codes](https://github.com/LorranSutter/everybody-codes)
 
-> **Overall: 55/57 parts solved (96%)**
+> **Overall: 55/69 parts solved (80%)**
 
 ### [2024 — Story: Echoes of Enigmatus](https://github.com/LorranSutter/everybody-codes/tree/main/2024/story/)
 
@@ -51,7 +51,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [2025 — Event: The Song of Ducks and Dragons](https://github.com/LorranSutter/everybody-codes/tree/main/2025/event/)
 
-`███████████████████░` **46/48** parts solved (96%)
+`███████████████░░░░░` **46/60** parts solved (77%)
 
 ---
 
