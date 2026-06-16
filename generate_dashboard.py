@@ -60,7 +60,15 @@ def parse_stats(text: str, repo_id: str):
                 "type": "parts"
             }
     elif repo_id in ("leet-code", "URI-Online-Judge"):
-        # Pattern: > **Overall: X problems solved**
+        # Try matching the badge format first: Solved%20Challenges-X-
+        match = re.search(r"Solved%20Challenges-(\d+)-", text)
+        if match:
+            return {
+                "solved": int(match.group(1)),
+                "total": None,
+                "type": "problems"
+            }
+        # Fallback pattern: > **Overall: X problems solved**
         match = re.search(r"Overall:\s*(\d+)\s*problems solved", text)
         if match:
             return {
