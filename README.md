@@ -29,15 +29,15 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [2023](https://github.com/LorranSutter/advent-of-code/tree/main/2023/)
 
-`██████████████░░░░░░` **34/50** parts solved (68%)
+`██████████████████████████████████░░░░░░░░░░░░░░░░` **34/50** parts solved (68%)
 
 ### [2024](https://github.com/LorranSutter/advent-of-code/tree/main/2024/)
 
-`██████████████████░░` **45/50** parts solved (90%)
+`█████████████████████████████████████████████░░░░░` **45/50** parts solved (90%)
 
 ### [2025](https://github.com/LorranSutter/advent-of-code/tree/main/2025/)
 
-`██████████████████░░` **21/24** parts solved (88%)
+`█████████████████████░░░` **21/24** parts solved (88%)
 
 ---
 
@@ -47,33 +47,23 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [2024 — Story: Echoes of Enigmatus](https://github.com/LorranSutter/everybody-codes/tree/main/2024/story/)
 
-`████████████████████` **9/9** parts solved (100%)
+`█████████` **9/9** parts solved (100%)
 
 ### [2025 — Event: The Song of Ducks and Dragons](https://github.com/LorranSutter/everybody-codes/tree/main/2025/event/)
 
-`███████████████░░░░░` **46/60** parts solved (77%)
+`██████████████████████████████████████████████░░░░░░░░░░░░░░` **46/60** parts solved (77%)
 
 ---
 
 ### [💡 LeetCode](https://github.com/LorranSutter/leet-code)
 
-> **Overall: 128 problems solved**
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-128-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
 
 ---
 
 ### [🌐 URI Online Judge](https://github.com/LorranSutter/URI-Online-Judge)
 
-> **Overall: 356 problems solved**
-
-| Category | Solved |
-| :--- | :---: |
-| 🔰 Beginner | 200 |
-| ⚙️ Ad-Hoc | 54 |
-| 📐 Geometry | 5 |
-| 🔢 Mathematics | 20 |
-| 🗄️ SQL | 9 |
-| 🔤 Strings | 54 |
-| 🧱 Structures | 14 |
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-356-brightgreen?style=for-the-badge&logo=python&logoColor=white)](https://www.beecrowd.com.br/)
 <!-- SUMMARY:END -->
 
 ---
