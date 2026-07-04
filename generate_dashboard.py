@@ -16,6 +16,11 @@ REPOS = {
         "url": "https://github.com/LorranSutter/everybody-codes",
         "branch": "main",
     },
+    "flip-flop-codes": {
+        "title": "🔀 Flip Flop Codes",
+        "url": "https://github.com/LorranSutter/flip-flop-codes",
+        "branch": "main",
+    },
     "leet-code": {
         "title": "💡 LeetCode",
         "url": "https://github.com/LorranSutter/leet-code",
@@ -50,7 +55,7 @@ def parse_stats(text: str, repo_id: str):
     if not text:
         return None
     
-    if repo_id in ("advent-of-code", "everybody-codes"):
+    if repo_id in ("advent-of-code", "everybody-codes", "flip-flop-codes"):
         # Pattern: > **Overall: 95/100 parts solved (95%)**
         match = re.search(r"Overall:\s*(\d+)/(\d+)\s*parts solved", text)
         if match:
@@ -117,10 +122,12 @@ def main():
     aoc_total = stats.get("advent-of-code", {}).get("total", 0)
     ebc_solved = stats.get("everybody-codes", {}).get("solved", 0)
     ebc_total = stats.get("everybody-codes", {}).get("total", 0)
+    ffc_solved = stats.get("flip-flop-codes", {}).get("solved", 0)
+    ffc_total = stats.get("flip-flop-codes", {}).get("total", 0)
     lc_solved = stats.get("leet-code", {}).get("solved", 0)
     uri_solved = stats.get("URI-Online-Judge", {}).get("solved", 0)
 
-    total_challenges = aoc_solved + ebc_solved + lc_solved + uri_solved
+    total_challenges = aoc_solved + ebc_solved + ffc_solved + lc_solved + uri_solved
 
     # Overall Badge-like summary
     lines.append(f"> ### 🏆 **Grand Total: {total_challenges} coding challenges completed!**")
@@ -129,6 +136,8 @@ def main():
         lines.append(f"> - **Advent of Code**: {aoc_solved}/{aoc_total} parts ({aoc_solved/aoc_total*100:.1f}%)")
     if "everybody-codes" in stats:
         lines.append(f"> - **Everybody Codes**: {ebc_solved}/{ebc_total} parts ({ebc_solved/ebc_total*100:.1f}%)")
+    if "flip-flop-codes" in stats:
+        lines.append(f"> - **Flip Flop Codes**: {ffc_solved}/{ffc_total} parts ({ffc_solved/ffc_total*100:.1f}%)")
     if "leet-code" in stats:
         lines.append(f"> - **LeetCode**: {lc_solved} problems solved")
     if "URI-Online-Judge" in stats:

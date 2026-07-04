@@ -8,6 +8,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 - **[Advent of Code](https://github.com/LorranSutter/advent-of-code)**: Annual December coding puzzles (Python).
 - **[Everybody Codes](https://github.com/LorranSutter/everybody-codes)**: Annual November story-based coding challenges (Python).
+- **[Flip Flop Codes](https://github.com/LorranSutter/flip-flop-codes)**: Coding puzzle series with three-part increasing difficulty (Python).
 - **[LeetCode](https://github.com/LorranSutter/leet-code)**: Algorithm and problem-solving practice (Go).
 - **[URI Online Judge](https://github.com/LorranSutter/URI-Online-Judge)**: Archive of online judge problems (Python).
 
@@ -16,10 +17,11 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 639 coding challenges completed!**
+> ### 🏆 **Grand Total: 655 coding challenges completed!**
 >
 > - **Advent of Code**: 100/124 parts (80.6%)
 > - **Everybody Codes**: 55/69 parts (79.7%)
+> - **Flip Flop Codes**: 16/21 parts (76.2%)
 > - **LeetCode**: 128 problems solved
 > - **URI Online Judge**: 356 problems solved
 
@@ -55,6 +57,16 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ---
 
+### [🔀 Flip Flop Codes](https://github.com/LorranSutter/flip-flop-codes)
+
+> **Overall: 16/21 parts solved (76%)**
+
+### [2025](https://github.com/LorranSutter/flip-flop-codes/tree/main/2025/)
+
+`████████████████░░░░░` **16/21** parts solved (76%)
+
+---
+
 ### [💡 LeetCode](https://github.com/LorranSutter/leet-code)
 
 [![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-128-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
@@ -72,6 +84,6 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 This repository is fully automated:
 1. A **GitHub Actions Workflow** (`update-dashboard.yml`) runs daily.
-2. It dynamically clones the latest `main` branches of the four source repositories.
+2. It dynamically clones the latest `main` branches of the five source repositories.
 3. It executes `generate_dashboard.py` to scan each repository's `README.md` progress markers, rewrite relative links to absolute ones, calculate the grand totals, and update this file.
 4. If and only if changes are detected, it commits and pushes the updated README.
