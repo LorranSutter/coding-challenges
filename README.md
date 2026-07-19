@@ -17,11 +17,11 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 681 coding challenges completed!**
+> ### 🏆 **Grand Total: 683 coding challenges completed!**
 >
 > - **Advent of Code**: 100/124 parts (80.6%)
 > - **Everybody Codes**: 55/69 parts (79.7%)
-> - **Flip Flop Codes**: 42/57 parts (73.7%)
+> - **Flip Flop Codes**: 44/57 parts (77.2%)
 > - **LeetCode**: 128 problems solved
 > - **URI Online Judge**: 356 problems solved
 
@@ -59,7 +59,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [🔀 Flip Flop Codes](https://github.com/LorranSutter/flip-flop-codes)
 
-> **Overall: 42/57 parts solved (74%)**
+> **Overall: 44/57 parts solved (77%)**
 
 ### [2025](https://github.com/LorranSutter/flip-flop-codes/tree/main/2025/)
 
@@ -67,7 +67,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [2026](https://github.com/LorranSutter/flip-flop-codes/tree/main/2026/)
 
-`██████████████████████████░░░░░░░░░░` **26/36** parts solved (72%)
+`████████████████████████████░░░░░░░░` **28/36** parts solved (78%)
 
 ---
 
