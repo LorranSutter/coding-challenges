@@ -11,6 +11,11 @@ REPOS = {
         "url": "https://github.com/LorranSutter/advent-of-code",
         "branch": "main",
     },
+    "codyssi": {
+        "title": "🧭 Codyssi",
+        "url": "https://github.com/LorranSutter/codyssi",
+        "branch": "main",
+    },
     "everybody-codes": {
         "title": "🦆 Everybody Codes",
         "url": "https://github.com/LorranSutter/everybody-codes",
@@ -55,7 +60,7 @@ def parse_stats(text: str, repo_id: str):
     if not text:
         return None
     
-    if repo_id in ("advent-of-code", "everybody-codes", "flip-flop-codes"):
+    if repo_id in ("advent-of-code", "codyssi", "everybody-codes", "flip-flop-codes"):
         # Pattern: > **Overall: 95/100 parts solved (95%)**
         match = re.search(r"Overall:\s*(\d+)/(\d+)\s*parts solved", text)
         if match:
@@ -120,6 +125,8 @@ def main():
     total_challenges = 0
     aoc_solved = stats.get("advent-of-code", {}).get("solved", 0)
     aoc_total = stats.get("advent-of-code", {}).get("total", 0)
+    cod_solved = stats.get("codyssi", {}).get("solved", 0)
+    cod_total = stats.get("codyssi", {}).get("total", 0)
     ebc_solved = stats.get("everybody-codes", {}).get("solved", 0)
     ebc_total = stats.get("everybody-codes", {}).get("total", 0)
     ffc_solved = stats.get("flip-flop-codes", {}).get("solved", 0)
@@ -127,13 +134,15 @@ def main():
     lc_solved = stats.get("leet-code", {}).get("solved", 0)
     uri_solved = stats.get("URI-Online-Judge", {}).get("solved", 0)
 
-    total_challenges = aoc_solved + ebc_solved + ffc_solved + lc_solved + uri_solved
+    total_challenges = aoc_solved + cod_solved + ebc_solved + ffc_solved + lc_solved + uri_solved
 
     # Overall Badge-like summary
     lines.append(f"> ### 🏆 **Grand Total: {total_challenges} coding challenges completed!**")
     lines.append(">")
     if "advent-of-code" in stats:
         lines.append(f"> - **Advent of Code**: {aoc_solved}/{aoc_total} parts ({aoc_solved/aoc_total*100:.1f}%)")
+    if "codyssi" in stats:
+        lines.append(f"> - **Codyssi**: {cod_solved}/{cod_total} parts ({cod_solved/cod_total*100:.1f}%)")
     if "everybody-codes" in stats:
         lines.append(f"> - **Everybody Codes**: {ebc_solved}/{ebc_total} parts ({ebc_solved/ebc_total*100:.1f}%)")
     if "flip-flop-codes" in stats:
