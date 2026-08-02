@@ -17,10 +17,10 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 735 coding challenges completed!**
+> ### 🏆 **Grand Total: 738 coding challenges completed!**
 >
 > - **Advent of Code**: 100/124 parts (80.6%)
-> - **Codyssi**: 51/66 parts (77.3%)
+> - **Codyssi**: 54/66 parts (81.8%)
 > - **Everybody Codes**: 55/69 parts (79.7%)
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
 > - **LeetCode**: 128 problems solved
@@ -46,7 +46,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [🧭 Codyssi](https://github.com/LorranSutter/codyssi)
 
-> **Overall: 51/66 parts solved (77%)**
+> **Overall: 54/66 parts solved (82%)**
 
 ### [2024 — Summer at the Lab](https://github.com/LorranSutter/codyssi/tree/main/2024/)
 
@@ -54,7 +54,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [2025 — Journey to Atlantis](https://github.com/LorranSutter/codyssi/tree/main/2025/)
 
-`███████████████████████████████████████░░░░░░░░░░░░░░░` **39/54** parts solved (72%)
+`██████████████████████████████████████████░░░░░░░░░░░░` **42/54** parts solved (78%)
 
 ---
 
