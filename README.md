@@ -7,17 +7,19 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 ## 🔗 Repositories Included
 
 - **[Advent of Code](https://github.com/LorranSutter/advent-of-code)**: Annual December coding puzzles (Python).
+- **[Codyssi](https://github.com/LorranSutter/codyssi)**: Multi-part seasonal coding challenge series (Python).
 - **[Everybody Codes](https://github.com/LorranSutter/everybody-codes)**: Annual November story-based coding challenges (Python).
 - **[Flip Flop Codes](https://github.com/LorranSutter/flip-flop-codes)**: Coding puzzle series with three-part increasing difficulty (Python).
 - **[LeetCode](https://github.com/LorranSutter/leet-code)**: Algorithm and problem-solving practice (Go).
 - **[URI Online Judge](https://github.com/LorranSutter/URI-Online-Judge)**: Archive of online judge problems (Python).
+- **[Project Euler](https://github.com/LorranSutter/project-euler)**: Mathematical/computer programming problems (Python).
 
 ---
 
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 738 coding challenges completed!**
+> ### 🏆 **Grand Total: 765 coding challenges completed!**
 >
 > - **Advent of Code**: 100/124 parts (80.6%)
 > - **Codyssi**: 54/66 parts (81.8%)
@@ -25,6 +27,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
 > - **LeetCode**: 128 problems solved
 > - **URI Online Judge**: 356 problems solved
+> - **Project Euler**: 27 problems solved
 
 ### [🎄 Advent of Code](https://github.com/LorranSutter/advent-of-code)
 
@@ -95,6 +98,12 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 ### [🌐 URI Online Judge](https://github.com/LorranSutter/URI-Online-Judge)
 
 [![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-356-brightgreen?style=for-the-badge&logo=python&logoColor=white)](https://www.beecrowd.com.br/)
+
+---
+
+### [🧮 Project Euler](https://github.com/LorranSutter/project-euler)
+
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-27-brightgreen?style=for-the-badge&logo=python&logoColor=white)](https://projecteuler.net/)
 <!-- SUMMARY:END -->
 
 ---
@@ -103,6 +112,6 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 This repository is fully automated:
 1. A **GitHub Actions Workflow** (`update-dashboard.yml`) runs daily.
-2. It dynamically clones the latest `main` branches of the five source repositories.
+2. It dynamically clones the latest `main` branches of the seven source repositories.
 3. It executes `generate_dashboard.py` to scan each repository's `README.md` progress markers, rewrite relative links to absolute ones, calculate the grand totals, and update this file.
 4. If and only if changes are detected, it commits and pushes the updated README.

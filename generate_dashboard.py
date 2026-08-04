@@ -35,6 +35,11 @@ REPOS = {
         "title": "🌐 URI Online Judge",
         "url": "https://github.com/LorranSutter/URI-Online-Judge",
         "branch": "main",
+    },
+    "project-euler": {
+        "title": "🧮 Project Euler",
+        "url": "https://github.com/LorranSutter/project-euler",
+        "branch": "main",
     }
 }
 
@@ -69,7 +74,7 @@ def parse_stats(text: str, repo_id: str):
                 "total": int(match.group(2)),
                 "type": "parts"
             }
-    elif repo_id in ("leet-code", "URI-Online-Judge"):
+    elif repo_id in ("leet-code", "URI-Online-Judge", "project-euler"):
         # Try matching the badge format first: Solved%20Challenges-X-
         match = re.search(r"Solved%20Challenges-(\d+)-", text)
         if match:
@@ -133,8 +138,9 @@ def main():
     ffc_total = stats.get("flip-flop-codes", {}).get("total", 0)
     lc_solved = stats.get("leet-code", {}).get("solved", 0)
     uri_solved = stats.get("URI-Online-Judge", {}).get("solved", 0)
+    pe_solved = stats.get("project-euler", {}).get("solved", 0)
 
-    total_challenges = aoc_solved + cod_solved + ebc_solved + ffc_solved + lc_solved + uri_solved
+    total_challenges = aoc_solved + cod_solved + ebc_solved + ffc_solved + lc_solved + uri_solved + pe_solved
 
     # Overall Badge-like summary
     lines.append(f"> ### 🏆 **Grand Total: {total_challenges} coding challenges completed!**")
@@ -151,6 +157,8 @@ def main():
         lines.append(f"> - **LeetCode**: {lc_solved} problems solved")
     if "URI-Online-Judge" in stats:
         lines.append(f"> - **URI Online Judge**: {uri_solved} problems solved")
+    if "project-euler" in stats:
+        lines.append(f"> - **Project Euler**: {pe_solved} problems solved")
     lines.append("")
 
     # Detail sections for each repo

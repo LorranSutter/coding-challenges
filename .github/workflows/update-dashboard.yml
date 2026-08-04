@@ -30,6 +30,7 @@ jobs:
           git clone https://github.com/LorranSutter/flip-flop-codes.git ../flip-flop-codes
           git clone https://github.com/LorranSutter/leet-code.git ../leet-code
           git clone https://github.com/LorranSutter/URI-Online-Judge.git ../URI-Online-Judge
+          git clone https://github.com/LorranSutter/project-euler.git ../project-euler
 
       - name: Generate Dashboard README
         run: python3 generate_dashboard.py
