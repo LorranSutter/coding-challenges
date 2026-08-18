@@ -19,13 +19,13 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 768 coding challenges completed!**
+> ### 🏆 **Grand Total: 773 coding challenges completed!**
 >
 > - **Advent of Code**: 100/124 parts (80.6%)
 > - **Codyssi**: 54/66 parts (81.8%)
 > - **Everybody Codes**: 55/69 parts (79.7%)
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
-> - **LeetCode**: 131 problems solved
+> - **LeetCode**: 136 problems solved
 > - **URI Online Judge**: 356 problems solved
 > - **Project Euler**: 27 problems solved
 
@@ -91,7 +91,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [💡 LeetCode](https://github.com/LorranSutter/leet-code)
 
-[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-131-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-136-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
 
 ---
 
