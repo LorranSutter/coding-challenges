@@ -19,11 +19,11 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 784 coding challenges completed!**
+> ### 🏆 **Grand Total: 790 coding challenges completed!**
 >
 > - **Advent of Code**: 100/124 parts (80.6%)
 > - **Codyssi**: 54/66 parts (81.8%)
-> - **Everybody Codes**: 58/129 parts (45.0%)
+> - **Everybody Codes**: 64/129 parts (49.6%)
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
 > - **LeetCode**: 144 problems solved
 > - **URI Online Judge**: 356 problems solved
@@ -63,11 +63,11 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [🦆 Everybody Codes](https://github.com/LorranSutter/everybody-codes)
 
-> **Overall: 58/129 parts solved (45%)**
+> **Overall: 64/129 parts solved (50%)**
 
 ### [2024 — The Kingdom of Algorithmia](https://github.com/LorranSutter/everybody-codes/tree/main/2024/event/)
 
-`███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` **3/60** parts solved (5%)
+`█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` **9/60** parts solved (15%)
 
 ### [2024 — Story: Echoes of Enigmatus](https://github.com/LorranSutter/everybody-codes/tree/main/2024/story/)
 
