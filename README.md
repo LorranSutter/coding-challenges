@@ -19,15 +19,15 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 803 coding challenges completed!**
+> ### 🏆 **Grand Total: 810 coding challenges completed!**
 >
 > - **Advent of Code**: 100/124 parts (80.6%)
 > - **Codyssi**: 54/66 parts (81.8%)
-> - **Everybody Codes**: 76/138 parts (55.1%)
+> - **Everybody Codes**: 81/138 parts (58.7%)
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
-> - **LeetCode**: 145 problems solved
+> - **LeetCode**: 146 problems solved
 > - **URI Online Judge**: 356 problems solved
-> - **Project Euler**: 27 problems solved
+> - **Project Euler**: 28 problems solved
 
 ### [🎄 Advent of Code](https://github.com/LorranSutter/advent-of-code)
 
@@ -63,7 +63,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [🦆 Everybody Codes](https://github.com/LorranSutter/everybody-codes)
 
-> **Overall: 76/138 parts solved (55%)**
+> **Overall: 81/138 parts solved (59%)**
 
 ### [2024 — The Kingdom of Algorithmia](https://github.com/LorranSutter/everybody-codes/tree/main/2024/event/)
 
@@ -75,11 +75,11 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [2024 — Story: The Digital Atelier](https://github.com/LorranSutter/everybody-codes/tree/main/2024/story04/)
 
-`██████░░░` **6/9** parts solved (67%)
+`████████░` **8/9** parts solved (89%)
 
 ### [2025 — Event: The Song of Ducks and Dragons](https://github.com/LorranSutter/everybody-codes/tree/main/2025/event/)
 
-`██████████████████████████████████████████████░░░░░░░░░░░░░░` **46/60** parts solved (77%)
+`█████████████████████████████████████████████████░░░░░░░░░░░` **49/60** parts solved (82%)
 
 ---
 
@@ -99,7 +99,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [💡 LeetCode](https://github.com/LorranSutter/leet-code)
 
-[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-145-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-146-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
 
 ---
 
@@ -111,7 +111,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [🧮 Project Euler](https://github.com/LorranSutter/project-euler)
 
-[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-27-brightgreen?style=for-the-badge&logo=python&logoColor=white)](https://projecteuler.net/)
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-28-brightgreen?style=for-the-badge&logo=python&logoColor=white)](https://projecteuler.net/)
 <!-- SUMMARY:END -->
 
 ---
