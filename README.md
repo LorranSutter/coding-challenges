@@ -19,11 +19,11 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 810 coding challenges completed!**
+> ### 🏆 **Grand Total: 812 coding challenges completed!**
 >
 > - **Advent of Code**: 100/124 parts (80.6%)
 > - **Codyssi**: 54/66 parts (81.8%)
-> - **Everybody Codes**: 81/138 parts (58.7%)
+> - **Everybody Codes**: 83/138 parts (60.1%)
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
 > - **LeetCode**: 146 problems solved
 > - **URI Online Judge**: 356 problems solved
@@ -63,7 +63,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [🦆 Everybody Codes](https://github.com/LorranSutter/everybody-codes)
 
-> **Overall: 81/138 parts solved (59%)**
+> **Overall: 83/138 parts solved (60%)**
 
 ### [2024 — The Kingdom of Algorithmia](https://github.com/LorranSutter/everybody-codes/tree/main/2024/event/)
 
@@ -79,7 +79,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [2025 — Event: The Song of Ducks and Dragons](https://github.com/LorranSutter/everybody-codes/tree/main/2025/event/)
 
-`█████████████████████████████████████████████████░░░░░░░░░░░` **49/60** parts solved (82%)
+`███████████████████████████████████████████████████░░░░░░░░░` **51/60** parts solved (85%)
 
 ---
 
