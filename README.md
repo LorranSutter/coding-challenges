@@ -19,23 +19,23 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 852 coding challenges completed!**
+> ### 🏆 **Grand Total: 862 coding challenges completed!**
 >
-> - **Advent of Code**: 114/174 parts (65.5%)
+> - **Advent of Code**: 116/174 parts (66.7%)
 > - **Codyssi**: 55/66 parts (83.3%)
 > - **Everybody Codes**: 88/138 parts (63.8%)
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
-> - **LeetCode**: 166 problems solved
+> - **LeetCode**: 174 problems solved
 > - **URI Online Judge**: 356 problems solved
 > - **Project Euler**: 28 problems solved
 
 ### [🎄 Advent of Code](https://github.com/LorranSutter/advent-of-code)
 
-> **Overall: 114/174 parts solved (66%)**
+> **Overall: 116/174 parts solved (67%)**
 
 ### [2022](https://github.com/LorranSutter/advent-of-code/tree/main/2022/)
 
-`██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` **14/50** parts solved (28%)
+`████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` **16/50** parts solved (32%)
 
 ### [2023](https://github.com/LorranSutter/advent-of-code/tree/main/2023/)
 
@@ -103,7 +103,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [💡 LeetCode](https://github.com/LorranSutter/leet-code)
 
-[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-166-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-174-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
 
 ---
 
