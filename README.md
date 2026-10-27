@@ -19,13 +19,13 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 942 coding challenges completed!**
+> ### 🏆 **Grand Total: 946 coding challenges completed!**
 >
 > - **Advent of Code**: 116/174 parts (66.7%)
 > - **Codyssi**: 55/66 parts (83.3%)
-> - **Everybody Codes**: 88/138 parts (63.8%)
+> - **Everybody Codes**: 91/198 parts (46.0%)
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
-> - **LeetCode**: 254 problems solved
+> - **LeetCode**: 255 problems solved
 > - **URI Online Judge**: 356 problems solved
 > - **Project Euler**: 28 problems solved
 
@@ -67,7 +67,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [🦆 Everybody Codes](https://github.com/LorranSutter/everybody-codes)
 
-> **Overall: 88/138 parts solved (64%)**
+> **Overall: 91/198 parts solved (46%)**
 
 ### [2024 — The Kingdom of Algorithmia](https://github.com/LorranSutter/everybody-codes/tree/main/2024/event/)
 
@@ -84,6 +84,10 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 ### [2025 — Event: The Song of Ducks and Dragons](https://github.com/LorranSutter/everybody-codes/tree/main/2025/event/)
 
 `███████████████████████████████████████████████████░░░░░░░░░` **51/60** parts solved (85%)
+
+### [2026 — Event: Lord of the Wings](https://github.com/LorranSutter/everybody-codes/tree/main/2026/event/)
+
+`███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` **3/60** parts solved (5%)
 
 ---
 
@@ -103,7 +107,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [💡 LeetCode](https://github.com/LorranSutter/leet-code)
 
-[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-254-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-255-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
 
 ---
 
