@@ -19,13 +19,13 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 <!-- SUMMARY:START -->
 ## 📊 Consolidated Progress
 
-> ### 🏆 **Grand Total: 958 coding challenges completed!**
+> ### 🏆 **Grand Total: 962 coding challenges completed!**
 >
 > - **Advent of Code**: 116/174 parts (66.7%)
 > - **Codyssi**: 55/66 parts (83.3%)
-> - **Everybody Codes**: 103/198 parts (52.0%)
+> - **Everybody Codes**: 106/198 parts (53.5%)
 > - **Flip Flop Codes**: 45/57 parts (78.9%)
-> - **LeetCode**: 255 problems solved
+> - **LeetCode**: 256 problems solved
 > - **URI Online Judge**: 356 problems solved
 > - **Project Euler**: 28 problems solved
 
@@ -67,7 +67,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [🦆 Everybody Codes](https://github.com/LorranSutter/everybody-codes)
 
-> **Overall: 103/198 parts solved (52%)**
+> **Overall: 106/198 parts solved (54%)**
 
 ### [2024 — The Kingdom of Algorithmia](https://github.com/LorranSutter/everybody-codes/tree/main/2024/event/)
 
@@ -87,7 +87,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [2026 — Event: Lord of the Wings](https://github.com/LorranSutter/everybody-codes/tree/main/2026/event/)
 
-`███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` **15/60** parts solved (25%)
+`██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` **18/60** parts solved (30%)
 
 ---
 
@@ -107,7 +107,7 @@ Rather than pinning multiple individual repositories, this dashboard dynamically
 
 ### [💡 LeetCode](https://github.com/LorranSutter/leet-code)
 
-[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-255-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![Solved Challenges](https://img.shields.io/badge/Solved%20Challenges-256-brightgreen?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/)
 
 ---
 
